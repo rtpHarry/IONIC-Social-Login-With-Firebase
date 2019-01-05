@@ -3,7 +3,7 @@
 We’ll break the process into below steps.
 
 - Add firebase to your ionic App.
-- Set up and android app in firebase console.
+- Set up an android app in firebase console.
 - Enable firebase dynamic links.
 - Enable google sign-In in the firebase console (Or the provider you want to use).
 - Install the required plugins in your cordova project.
