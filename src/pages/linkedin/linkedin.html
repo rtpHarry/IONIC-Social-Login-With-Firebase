@@ -7,7 +7,7 @@
 <ion-content padding>
 
   <div *ngIf="isLoggedIn; else linkedinLogin">
-    <h1>Facebook</h1>
+    <h1>LinkedIn</h1>
     <h2>Hi, {{users.name}} ({{users.email}})</h2>
     <p>
       Gender: {{users.gender}}
@@ -17,7 +17,7 @@
     </p>
     <p>
       <button ion-button icon-right (click)="logout()">
-        Facebook Logout
+        LinkedIn Logout
       </button>
     </p>
   </div>
